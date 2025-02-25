@@ -1,0 +1,15 @@
+.{
+    .name = "libyaml",
+    .version = "0.2.5",
+    .minimum_zig_version = "0.14.0-dev.3356",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "ReadMe.md",
+        "src",
+        "tests",
+        "include",
+    },
+}

@@ -1,3 +1,26 @@
+# Zig build for LibYAML
+
+This project builds [LibYAML](https://github.com/yaml/libyaml) with the Zig build system. No
+dependencies are required except for Zig.
+
+To build a static library, run:
+
+```
+zig build
+```
+
+To run tests, run:
+
+```
+zig build test
+```
+
+Commits from https://github.com/yaml/libyaml/pull/250 are included to fix compiling with musl.
+
+The original README contents are included below:
+
+---
+
 ## LibYAML - A C library for parsing and emitting YAML.
 
 To build and install the library, run:
